@@ -1,11 +1,9 @@
-# Instagram Message Spammer 🚀
+# Message Spammer 🚀
 
 This script automates sending messages repeatedly using PyAutoGUI. It's useful for testing, pranking (ethically), or automating repetitive messages.
 
 ## ⚠️ Disclaimer
 **Use this script responsibly!** Spamming can violate platform policies and lead to bans. Ensure you have permission before using it.
-
----
 
 ## 📌 Features
 - Sends a specified message multiple times.
@@ -13,16 +11,12 @@ This script automates sending messages repeatedly using PyAutoGUI. It's useful f
 - Includes random delays between messages to simulate human behavior.
 - Simple and easy-to-use command-line interface.
 
----
-
 ## 🛠 Installation
 ### **1️⃣ Install Dependencies**
 Ensure you have Python installed, then install the required package:
 ```sh
 pip install pyautogui
 ```
-
----
 
 ## 🚀 Usage
 ### **Basic Command**
@@ -48,21 +42,15 @@ python spammer.py --message "Hey!" --times 5 --ttw 3
 python spammer.py --message "LOL 😂" --times 20 --ttw 0
 ```
 
----
-
 ## ⚙️ How It Works
 1. **Countdown Timer** → Before execution, a countdown is shown.
 2. **Typing Simulation** → PyAutoGUI types and sends the message.
 3. **Random Delay** → Adds a natural delay between messages.
 
----
-
 ## ❗ Warnings
 - **Avoid excessive spamming** to prevent being flagged.
 - **Use responsibly** and ensure compliance with platform policies.
 - **Run it in the correct chat window** (It sends messages wherever your cursor is focused!).
-
----
 
 ## 📝 Notes
 - The script assumes the chat input field is **active** before execution.
@@ -72,12 +60,7 @@ python spammer.py --message "LOL 😂" --times 20 --ttw 0
   ```
 - Tested on **Windows & macOS**.
 
----
-
 ## 📜 License
 This script is provided for **educational purposes only**. The author is not responsible for misuse.
 
----
-
 **Happy Spamming! 🚀**
-
